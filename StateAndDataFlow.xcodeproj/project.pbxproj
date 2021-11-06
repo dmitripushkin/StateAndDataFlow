@@ -11,6 +11,10 @@
 		BF85C2B127367FC70065B296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C2B027367FC70065B296 /* ContentView.swift */; };
 		BF85C2B327367FCB0065B296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF85C2B227367FCB0065B296 /* Assets.xcassets */; };
 		BF85C2B627367FCB0065B296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF85C2B527367FCB0065B296 /* Preview Assets.xcassets */; };
+		BF85C2BD2736B5AF0065B296 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C2BC2736B5AF0065B296 /* TimeCounter.swift */; };
+		BF85C2BF2736BEF40065B296 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C2BE2736BEF40065B296 /* RegisterView.swift */; };
+		BF85C2C12736C4F80065B296 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C2C02736C4F80065B296 /* UserManager.swift */; };
+		BF85C2C32736C72A0065B296 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C2C22736C72A0065B296 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BF85C2B027367FC70065B296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF85C2B227367FCB0065B296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF85C2B527367FCB0065B296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF85C2BC2736B5AF0065B296 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		BF85C2BE2736BEF40065B296 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		BF85C2C02736C4F80065B296 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		BF85C2C22736C72A0065B296 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				BF85C2AE27367FC70065B296 /* StateAndDataFlowApp.swift */,
 				BF85C2B027367FC70065B296 /* ContentView.swift */,
+				BF85C2BC2736B5AF0065B296 /* TimeCounter.swift */,
+				BF85C2BE2736BEF40065B296 /* RegisterView.swift */,
+				BF85C2C22736C72A0065B296 /* StarterView.swift */,
+				BF85C2C02736C4F80065B296 /* UserManager.swift */,
 				BF85C2B227367FCB0065B296 /* Assets.xcassets */,
 				BF85C2B427367FCB0065B296 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF85C2BD2736B5AF0065B296 /* TimeCounter.swift in Sources */,
+				BF85C2BF2736BEF40065B296 /* RegisterView.swift in Sources */,
+				BF85C2C32736C72A0065B296 /* StarterView.swift in Sources */,
 				BF85C2B127367FC70065B296 /* ContentView.swift in Sources */,
+				BF85C2C12736C4F80065B296 /* UserManager.swift in Sources */,
 				BF85C2AF27367FC70065B296 /* StateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +301,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +329,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
